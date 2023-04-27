@@ -18,6 +18,7 @@ ol[class] {
 html {
   height: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Убираем внешние отступы */
@@ -320,6 +321,7 @@ h4 {
   margin-bottom: 10px;
   transition: ease-in-out;
   background-color: white;
+  cursor: pointer;
 }
 
 .learn-more:hover{
@@ -508,13 +510,15 @@ input[type=text] {
   display: flex;
   justify-content: flex-end;
   gap: 30px;
-  color:  #CFE3CC;
+  
   border-bottom: 1px solid #CFE3CC;
   
 }
 
 .footer-navigation a{
   display: inline-block;
+  color:  #CFE3CC;
+  text-decoration: none;
 }
 
 .rights{

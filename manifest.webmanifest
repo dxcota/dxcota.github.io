@@ -1,0 +1,24 @@
+{
+    "name": "The Financial Independence Platform for Physicians",
+    "short_name": "Fin Platform",
+    "description": "Feel late to the game of financial education? You're not alone. Attend breaks it down, makes it easy and gives you confidence that your financial future is in good hands — yours.",
+        "icons": [
+          {
+            "src": "./android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+          },
+          {
+            "src": "./android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
+        ],
+        "theme_color": "#fe9e45",
+        "background_color": "#fe9e45",
+        "display": "standalone",
+        "orientation": "natural",
+        "start_url": "."
+      }

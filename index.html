@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Financial Independence Platform for Physicians">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color">
     <title>Take Care of You</title>
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,12 +18,15 @@
     <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
+    <noscript>
+        You need to enable JavaScript to run this app.
+      </noscript>
     <header class="header">
         <div class="container">
            <div class="navigation">
-                <a class="active">Solutions</a>
-                <a>Learn</a>
-                <a>About Us</a>
+                <a class="active" href="#register-wrapper">Solutions</a>
+                <a href="#learn-more">Learn</a>
+                <a href="#accordeon-wrapper">About Us</a>
            </div>
         </div>
     </header>
@@ -34,7 +38,7 @@
             <button class="join">Join the waitlist</button>
         </div>
         <div class="right">
-            <img class="main-image" src="./234.webp">
+            <img class="main-image" src="./234.webp" alt="working doctor">
         </div>
 
     </div>
@@ -44,7 +48,7 @@
             <h2 data-aos="fade-left" data-aos-once="true">The Financial Independence <br> Platform for Physicians</h2>
             
             <p data-aos="fade-right" data-aos-once="true">Doctors make so many sacrifices for the greater good, including their own financial <br> wellbeing. Attend is a comprehensive digital finance platform designed to change <br> that. Now you can take care of yourself as well as you take care of your patients.</p>
-            <img class="bottom-image" src="./img2.webp">
+            <img class="bottom-image" src="./img2.webp" alt="woman searching something in her phone">
         </div>
     </div>
     <div class="attending">
@@ -52,38 +56,38 @@
             <h2 data-aos="fade-right" data-aos-once="true">Attending to Your <br> Financial life</h2>
             
             <p data-aos="fade-left" data-aos-once="true">Physicians shouldn't have to choose between meaning and money — you <br> deserve both. Attend gives you the power to easily manage your finances <br> anytime, anywhere no sacrifice necessary.</p>
-            <img class="doctor" src="./doctorpic.webp">
+            <img class="doctor" src="./doctorpic.webp" alt="woman doctor speaking to patient">
         </div>
     </div>
     <div class="solutions" >
         <div class="container">
             <div class="solutions-wrapper" data-aos="fade-left"
             data-aos-anchor-placement="bottom-bottom"  data-aos-duration="500" data-aos-delay="100" data-aos-once="true">
-                <div class="accordeon-wrapper">
+                <div class="accordeon-wrapper" id="accordeon-wrapper">
                     <h2>A Financial Solutions <br> Platform that is...</h2>
                     <div class="accordeon" >
                         <div class="acc">
                           <input type="radio" name="accDuvidas" id="accDuvidas-1" />
-                          <label for="accDuvidas-1">Tailored <img src="./plus.png"></label>
+                          <label for="accDuvidas-1">Tailored <img src="./plus.png" alt="white plus on green background"></label>
                           <p>Only for physicians — because there's no financial journey quite like yours.</p>
                         </div>
                         <div class="line"></div>
                         <div class="acc">
                           <input type="radio" name="accDuvidas" id="accDuvidas-2" />
-                          <label for="accDuvidas-2">Empowering <img src="./plus.png"></label>
+                          <label for="accDuvidas-2">Empowering <img src="./plus.png" alt="white plus on green background"></label>
                           <p>The actionable information you need to make smarter financial decisions.</p>
                         </div>
                         <div class="line"></div>
                         <div class="acc">
                           <input type="radio" name="accDuvidas" id="accDuvidas-3" />
-                          <label for="accDuvidas-3">Convenient <img src="./plus.png"></label>
+                          <label for="accDuvidas-3">Convenient <img src="./plus.png" alt="white plus on green background"></label>
                           <p>Always-on digital solution that fits in seamlessly with your always-on lifestyle.</p>
                         </div>
                         <div class="line"></div>
                       </div>
                        <button class="learn-more" >Learn More</button>
                 </div>
-                <img class="phone-image" src="./phone.png">
+                <img class="phone-image" src="./phone.png" alt="minimalistic phone picture">
             </div>
         </div>
         
@@ -96,17 +100,17 @@
             </div>
             <div class="people">
                 <div class="attending-physicians">
-                    <img src="./attending.webp">
+                    <img src="./attending.webp" alt="happy doctor woman">
                     <p>Attending Physicians</p>
                     <p>You can do more than just make up for lost time</p>
                 </div>
                 <div class="fellas">
-                    <img src="./fellas.webp">
+                    <img src="./fellas.webp" alt="smiling doctor male">
                     <p>Residents & Fellows</p>
                     <p>The time to protect your</p>
                 </div>
                 <div class="students">
-                    <img src="./students.webp">
+                    <img src="./students.webp" alt="woman studying the medecine">
                     <p>Medical Students</p>
                     <p>The earlier you tend to your finances the better</p>
                 </div>
@@ -116,7 +120,7 @@
     <div class="best-medicine">
         <div class="container">
             <div class="confidence">
-                <h2>Knowledge is the <br> Best Medicine</h2>
+                <h2 id="learn-more">Knowledge is the <br> Best Medicine</h2>
                 <p>Feel late to the game of financial education? You're not alone. Attend breaks it down, makes it <br> easy and gives you confidence that your financial future is in good hands — yours.</p>
                 <button>Learn More</button>
             </div>
@@ -124,7 +128,7 @@
     </div>
     <div class="join-us">
         <div class="container" style="padding-top: 15px;">
-            <div class="register-wrapper">
+            <div class="register-wrapper" id="#register-wrapper">
                 <div class="register" data-aos="fade-right" data-aos-delay="150" data-aos-once="true">
                     <h2>Join the <br> Waitlist</h2>
                     <form>
@@ -144,7 +148,7 @@
                     </div>
                     <button class="registration-button">Register</button>
                     </div>
-                <img class="black-woman" src="./black-woman.webp" data-aos="zoom-in-up" data-aos-once="true">
+                <img class="black-woman" src="./black-woman.webp" alt="black woman healing people" data-aos="zoom-in-up" data-aos-once="true">
             </div>  
         </div>
     </div>
@@ -156,14 +160,14 @@
             <div class="footer-navigation">
                 <div class="contact">
                     <a>Contact</a>
-                    <a>contact@helloattend.com</a>
+                    <a href="contact@helloattend.com">contact@helloattend.com</a>
                     <a>New York, NY</a>
                 </div>
                 <div class="company">
                     <a>Company</a>
-                    <a>Solutions</a>
-                    <a>Learn</a>
-                    <a>Our Mission</a>
+                    <a href="#register-wrapper">Solutions</a>
+                    <a href="#learn-more">Learn</a>
+                    <a href="#accordeon-wrapper">Our Mission</a>
                 </div>
                 <div class="social">
                     <a>Social</a>
