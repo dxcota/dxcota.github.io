@@ -1,3 +1,8 @@
+@media (max-width: 850px){
+    .title{
+        font-size:90px ;
+    }
+}
 @media (max-width: 780px){
     .register-wrapper{
         display: block;
@@ -13,9 +18,20 @@
         text-align: center;
     }
 }
-@media (max-width: 850px){
-    .title{
-        font-size:90px ;
+@media (max-width:770px){
+    .accordeon-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .phone-image{
+        display: none;
+    }
+}
+@media (max-width: 765px){
+    .wrapper .join{
+        height: 6vh;
     }
 }
 @media (max-width: 670px){
@@ -38,12 +54,12 @@
     .left{
         width: 100%;
     }
-}
-@media (max-width: 490px){
-    .confidence h2{
-        font-size: 60px;
+    .footer-heading h1{
+        font-size: 35px;
+        text-align: center;
     }
 }
+
 
 @media (max-width: 570px){
     
@@ -65,26 +81,20 @@
     }
     
 }
-
-@media (max-width:770px){
-    .accordeon-wrapper{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .phone-image{
-        display: none;
+@media (max-width: 490px){
+    .confidence h2{
+        font-size: 60px;
     }
 }
 
-@media (max-width: 480px){
+
+@media screen and (max-width: 480px){
     .bottom-image{
         display: none;
     }
     
     .attending h2{
-        font-size: 60px
+        font-size: 60px;
     }
     .about p{
         padding-bottom: 10px;
@@ -92,36 +102,23 @@
     .attending h2{
         margin: 0 auto;
     }
+    .about h2{
+        font-size: 40px;
+    }
+    .about p{
+        font-size: 12px;
+
+    }
 }
 
 @media (max-width: 420px){
     .confidence h2{
         font-size: 60px;
     }
-    .about h2{
-        font-size: 40px;
-    }
-    .about p{
-        font-size: 12px;
+    
     }
     .footer-navigation a{
         font-size: 14px;
-    }
-}
-
-
-
-@media (max-width: 765px){
-    .wrapper .join{
-        height: 6vh;
-    }
-}
-
-@media(max-width: 670px){
-    .footer-heading h1{
-        font-size: 35px;
-        text-align: center;
-    }
 }
 
 
